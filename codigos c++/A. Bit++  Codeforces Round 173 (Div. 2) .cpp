@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+
+    int t;
+    int d=0;
+
+    cin>> t ;
+    while(t--){
+        string s;
+        cin>>s;
+
+
+        if (s[0]=='+' || s[1]=='+' || s[2]=='+')d++;
+
+        if (s[0]=='-' || s[1]=='-' || s[2]=='-')d--;
+
+
+        }
+        cout<<d<<endl;
+
+
+    return 0;
+}
